@@ -8,7 +8,7 @@ Just build your light system (using LEDs) and connect the Arduino Pin #10 as a C
 
 The code was originally created to the Arduino NANO, so I had to create a PWM-like function, to make the lights turn on/off smoothly.
 
-Change the line below to monitor the desired distance:  
+Change the line below to monitor the desired distance (in centimeters):  
 `#define distance 120`
 
 If you need to see some Debug messages, remove the comment mark `//` in:  
